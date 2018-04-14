@@ -123,7 +123,7 @@ $ cf push
 ...
 
 →cf push
-Using manifest file /Users/yjayaraman/projects/dev-workshop-labs/spring-boot-data/initial/springbox-catalog/manifest.yml
+Using manifest file /Users/bmullan/projects/dev-workshop-labs/spring-boot-data/initial/springbox-catalog/manifest.yml
 
 Updating app springbox-catalog in org lab-org99 / space development as user99@raytheon.com...
 OK

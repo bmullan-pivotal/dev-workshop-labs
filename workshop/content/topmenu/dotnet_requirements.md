@@ -29,7 +29,7 @@ title = "Lab Requirements"
 
 5. For the labs, you will need to have the materials cloned and track the `master`. This can be accomplished as follows:
 
-    $ git clone https://github.com/yjayaraman-pivotal/dev-workshop-labs.git. If you don't have GitHub account, you can download it from https://github.com/yjayaraman-pivotal/dev-workshop-labs/archive/master.zip
+    $ git clone https://github.com/bmullan-pivotal/dev-workshop-labs.git. If you don't have GitHub account, you can download it from https://github.com/bmullan-pivotal/dev-workshop-labs/archive/master.zip
 
     Some of the labs have a `final` folder and an `initial` folder. You can start with the `initial` folder of lab and complete the lab with that, or the you may choose to skip a lab and just run it from the `final` folder. 
 

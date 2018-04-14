@@ -92,7 +92,7 @@ $ mvn package
 +
 ----
 →cf push
-Using manifest file /Users/yjayaraman/projects/dev-workshop-labs/spring-cloud-eureka/initial/springbox-catalog/manifest.yml
+Using manifest file /Users/bmullan/projects/dev-workshop-labs/spring-cloud-eureka/initial/springbox-catalog/manifest.yml
 
 Updating app springbox-catalog in org lab-org99 / space development as user99@raytheon.com...
 OK
@@ -178,7 +178,7 @@ $ mvn package
 +
 ----
 →cf push
-Using manifest file /Users/yjayaraman/projects/dev-workshop-labs/spring-cloud-eureka/initial/springbox-catalog/manifest.yml
+Using manifest file /Users/bmullan/projects/dev-workshop-labs/spring-cloud-eureka/initial/springbox-catalog/manifest.yml
 
 Updating app springbox-catalog in org lab-org99 / space development as user99@raytheon.com...
 OK

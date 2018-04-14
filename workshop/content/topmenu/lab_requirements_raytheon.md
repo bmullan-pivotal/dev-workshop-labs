@@ -27,9 +27,9 @@ title = "Lab Requirements"
 
 ```
     cd <your preferred directory>
-    git clone https://github.com/yjayaraman-pivotal/dev-workshop-labs.git
+    git clone https://github.com/bmullan-pivotal/dev-workshop-labs.git
 ```
-> If you don't have GitHub account, you can download it from https://github.com/yjayaraman-pivotal/dev-workshop-labs/archive/master.zip.
+> If you don't have GitHub account, you can download it from https://github.com/bmullan-pivotal/dev-workshop-labs/archive/master.zip.
 > Some of the labs have a `final` folder and an `initial` folder. You can start with the `initial` folder of lab and complete the lab with that, or the you may choose to skip a lab and just run it from the `final` folder. 
 
 6. You will be pushing apps to Cloud Foundry. Students must be able to access the labs environment at https://apps.sys.mag.perfexel.com to perform practical work.  Outbound access to this site over TCP ports 80 (http), 443 (https), 

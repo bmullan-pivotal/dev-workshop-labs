@@ -22,13 +22,13 @@ Approximate time: 30 minutes
 
 == `Setup`
 
-. You can download a zip file of the labs at https://github.com/yjayaraman-pivotal/dev-workshop-labs/archive/master.zip
+. You can download a zip file of the labs at https://github.com/bmullan-pivotal/dev-workshop-labs/archive/master.zip
 +
 [NOTE]
 You can also use `Git` to check out the project labs to local. This can be accomplished as follows:
 +
 ----
-$ git clone https://github.com/yjayaraman-pivotal/dev-workshop-labs.git
+$ git clone https://github.com/bmullan-pivotal/dev-workshop-labs.git
 ----
 
 

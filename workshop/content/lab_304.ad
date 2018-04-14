@@ -283,7 +283,7 @@ $ cf push
 ...
 
 →cf push
-Using manifest file /Users/yjayaraman/projects/dev-workshop-labs/spring-cloud-config/initial/springbox-catalog/manifest.yml
+Using manifest file /Users/bmullan/projects/dev-workshop-labs/spring-cloud-config/initial/springbox-catalog/manifest.yml
 
 Creating app springbox-catalog in org lab-org99 / space development as user99@raytheon.com...
 OK
