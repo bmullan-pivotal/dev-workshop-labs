@@ -54,8 +54,14 @@
         title = "Microservices Session 1:"
 
         [[days.sessions.exercises]]
-            title = "_Spring Boot Primer_"
-            slides = ["/slides/session3/session_01.pdf"]
+
+            [[days.sessions.exercises.labs]]
+                title = "Cloud Native Design & 12 Factor App"
+                slides = ["/slides/general/68-cloud-native-design.pdf"]
+
+            [[days.sessions.exercises.labs]]
+                title = "An Introduction to Microservices"
+                slides = ["/slides/general/70-microservices.pdf"]
 
             [[days.sessions.exercises.labs]]
                 title = "Spring Boot Basics"
