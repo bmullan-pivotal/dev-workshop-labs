@@ -9,29 +9,6 @@
             [[days.sessions.exercises.labs]]
                 title = "_8:30 AM - 9:00 AM: Breakfast_"
             
-
-    [[days.sessions]]
-      title = "Intro to Pivotal Cloud Foundry"
-
-        [[days.sessions.exercises]]
-            title = "_Introduction_"
-
-            [[days.sessions.exercises.labs]]
-                title = "Pivotal Overview" 
-                slides = ["/slides/general/Fullerton Pivotal workshop.pdf"]
-
-            [[days.sessions.exercises.labs]]
-                title = "Enabling a Cloud-Native Organization" 
-                slides = ["/slides/general/Enabling a Cloud-Native Organization.key"]   
-
-            [[days.sessions.exercises.labs]]
-                title = "Pivotal Cloud Foundry Intro"
-                slides = ["/slides/session1/PCF_Basics.key"]
-
-            [[days.sessions.exercises.labs]]
-                title = "Demo"
-                slides = ["http://basics-workshop.cloudfoundry.org/slides/#/interacting"]
-
     [[days.sessions]]
       title = "Getting started"
 
@@ -49,6 +26,28 @@
             [[days.sessions.exercises.labs]]
                 title = "Pushing Your First Application - Java"
                 labs = ["/lab_102"]
+
+    [[days.sessions]]
+      title = "Intro to Pivotal Cloud Foundry"
+
+        [[days.sessions.exercises]]
+            title = "_Introduction_"
+
+            [[days.sessions.exercises.labs]]
+                title = "Pivotal Overview" 
+                slides = ["/slides/general/CVS Pivotal Workshop - Pivotal Intro.pdf"]
+
+            [[days.sessions.exercises.labs]]
+                title = "Enabling a Cloud-Native Organization" 
+                slides = ["/slides/general/Enabling a Cloud-Native Organization.key"]   
+
+            [[days.sessions.exercises.labs]]
+                title = "Pivotal Cloud Foundry Intro"
+                slides = ["/slides/session1/PCF_Basics.key"]
+
+            [[days.sessions.exercises.labs]]
+                title = "Demo"
+                slides = ["http://basics-workshop.cloudfoundry.org/slides/#/interacting"]
 
     [[days.sessions]]
         title = "Microservices Session 1:"
@@ -85,6 +84,12 @@
             [[days.sessions.exercises.labs]]
                 title = "Deploying it to Cloud Foundry"
                 labs = ["/lab_303a"]
+
+            [[days.sessions.exercises.labs]]
+                title = "Events with RabbitMQ and Spring AMQP"
+                slides = ["https://www.slideshare.net/martintoshev/spring-rabbitmq-67311985"]
+                labs = ["/lab_309"]
+
 
             [[days.sessions.exercises.labs]]
                 title = "**Wrap Up**"

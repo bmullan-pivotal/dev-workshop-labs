@@ -3,6 +3,7 @@ package lab;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -34,6 +35,12 @@ public class GreetingController {
     		String.format(fullTemplate,greeting,name));
     	mapGreetings.put(new Long(g.getId()),g);
     	return g;
+    }
+
+    @RequestMapping(value = "/addGreetingJson",  method = RequestMethod.POST)
+    public Greeting addGreeetingJson( @RequestBody Greeting greeting ) {
+        mapGreetings.put(new Long(greeting.getId()),greeting);
+        return greeting;
     }
 
     @RequestMapping(value = "/greetings/{id}", method = RequestMethod.GET)

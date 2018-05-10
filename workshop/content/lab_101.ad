@@ -72,7 +72,7 @@ Space:          development
 
 ### `Using Apps manager`
 
-. In a browser, go to https://apps.gcp.perfexel.com (ignore the insecure SSL connection error - we are using self-signed SSL cert for the endpoints)
+. In a browser, go to https://console.run.pivotal.io (ignore the insecure SSL connection error - we are using self-signed SSL cert for the endpoints)
 
 . Log in to the Apps Manager using the same User credentials as CLI.
 

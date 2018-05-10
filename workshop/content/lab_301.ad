@@ -23,7 +23,7 @@ This microservice will provide the _Movie Catalog Service_, which will allow us 
 We'll be using the http://grouplens.org/datasets/movielens/[MovieLens] dataset, and we'll model it's `Movie` and `Genre` concepts in this microservice.
 
 ---
-***Approximate time: 10 minutes***
+***Approximate time: 10 minutes ( + 10 minutes for extra credit!)***
 --
 
 
@@ -138,6 +138,22 @@ $ mvn spring-boot:run
 http://localhost:8080:: Says `Hello, World`
 
 
+=== `Extra Credit`
+
+Real web services methods provide a rich set of methods to interact with your service. Extend this simple example to add some additional methods. Some ideas include ... 
+
+- Add a greeting method which takes a name as a parameter 
+eg. /greeting?name=Barry
+
+- Add a POST method which saves the passed greeting name. You will have to use curl or the chrome 'Postman' plugin to test this. 
+
+- Add a path variable to retrieve a saved greeting eg. /greetings/1
+
+- any other ideas you can think of ...
+
+You can find some examples of how to add these methods in the /spring-boot-basics/final project. Look for the GreetingController and Greeting.java files.
+
+
 === `Clean Up`
 
 NOTE::
@@ -151,3 +167,5 @@ Let's clean up our application so that we can have a clean start for the next la
 
 *Congratulations!*
 You've just completed your first Spring Boot application.
+
+

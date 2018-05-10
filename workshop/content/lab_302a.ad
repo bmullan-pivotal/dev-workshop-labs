@@ -82,7 +82,7 @@ $ mvn package
 $ cf push
 ----
 
-. Once the app has started running, go to Apps Manager UI https://apps.sys.mag.perfexel.com and go to your org and space, and open you app. You'll see some changes on the page
+. Once the app has started running, go to Apps Manager UI https://console.run.pivotal.io and go to your org and space, and open you app. You'll see some changes on the page
 +
 image::/images/lab02-apps-manager.png[]
 

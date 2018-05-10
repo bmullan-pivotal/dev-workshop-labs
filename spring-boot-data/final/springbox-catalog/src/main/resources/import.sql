@@ -4585,3 +4585,8 @@ insert into movies(id,title,ml_id,number_in_stock) values (2676,'You So Crazy (1
 insert into movies_genres(movie_id, genre_id) values (2676,1005);
 insert into movies(id,title,ml_id,number_in_stock) values (2677,'Scream of Stone (Schrei aus Stein) (1991)','1682',10);
 insert into movies_genres(movie_id, genre_id) values (2677,1008);
+
+insert into movies(id,title,ml_id,number_in_stock) values (2678,'Saving Private Ryan (1991)','1682',10);
+
+insert into actors(id,name) values (1,'Tom Hanks');
+insert into actors_movies(actor_id,movie_id) values (1,2678);
