@@ -21,12 +21,14 @@ public class GreetingController {
 	private static Map<Long, Greeting> mapGreetings = new HashMap<>();
     private final AtomicLong counter = new AtomicLong();
 
+    // demonstrates how to accept a parameter 'name'
     @RequestMapping("/greeting")
     public Greeting greeting(@RequestParam(value="name", defaultValue="World") String name) {
         return new Greeting(counter.incrementAndGet(),
                             String.format(template, name));
     }
 
+    // demonstrates a POST method for creating items
     @RequestMapping(value = "/addGreeting",  method = RequestMethod.POST)
     public Greeting addGreeeting(
     	@RequestParam(value="greeting", defaultValue="Hello") String greeting,
@@ -37,12 +39,14 @@ public class GreetingController {
     	return g;
     }
 
+    // demonstrates a POST method that accepts a JSON body which is mapped to a java object 'Greeting'
     @RequestMapping(value = "/addGreetingJson",  method = RequestMethod.POST)
     public Greeting addGreeetingJson( @RequestBody Greeting greeting ) {
         mapGreetings.put(new Long(greeting.getId()),greeting);
         return greeting;
     }
 
+    // demonstrates a GET method with a PathVariable 'id' 
     @RequestMapping(value = "/greetings/{id}", method = RequestMethod.GET)
 	public Greeting getGreetingsByID(
 	  @PathVariable("id") long id) {
